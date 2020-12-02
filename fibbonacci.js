@@ -16,4 +16,4 @@ function sumFibs( num ) {
     return count-fib;
 }
 
-console.log( sumFibs( 75024) );
+console.log( sumFibs( 10) );

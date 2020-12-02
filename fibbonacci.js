@@ -1,12 +1,12 @@
 function sumFibs( num ) {
-    let f0 = 0;
-    let f1 = count = 1;
+    let prev = 0;
+    let current = count = 1;
     let fib = 0;
 
     while( fib <= num ) {
-        fib = f0 + f1;
-        f0 = f1
-        f1 = fib;
+        fib = prev + current;
+        prev = current
+        current = fib;
 
         if( fib % 2 != 0 ) {
             count = count + fib
